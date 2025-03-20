@@ -1,0 +1,168 @@
+@media (max-width: 990px) {
+
+  body {
+    font-size: 2em;
+  }
+
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  .logo {
+    font-size: 5rex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 2em;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: auto;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu.show {
+    display: flex;
+    font-size: 1em;
+    width: -webkit-fill-available;
+    text-align: center;
+  }
+
+  .menu__item {
+    margin-top: 20px;
+    font-size: 6rex;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .menu__item:first-child {
+    border-top: 1px solid #ccc;
+  }
+
+  .hamburger {
+    margin-bottom: 20px;
+  }
+
+  .form-button {
+    font-size: 5rex;
+  }
+
+  button,
+  .join-button {
+    font-size: 5rex;
+  }
+
+  .search-button {
+    font-size: 4rex;
+  }
+
+  .form-container {
+    padding: 5vh 8vw;
+    height: 100vh;
+  }
+
+  .form-container-info {
+    font-size: 1em;
+  }
+
+  .form-container-title {
+    font-size: 2em;
+  }
+
+  .form-text-input {
+    font-size: 5rex;
+  }
+
+  .logo img {
+    max-height: 4em;
+  }
+
+  .details,
+  .participants,
+  .results {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .section-title {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+
+  label {
+    font-size: 5rex;
+  }
+
+  .search-input {
+    font-size: 4rex;
+    width: 40vw;
+  }
+
+  .player-card {
+    width: 100%;
+    text-align: center;
+  }
+
+  .player-info {
+    font-size: 5rex;
+  }
+
+  .player-image {
+    width: 50%;
+  }
+
+  .error {
+    font-size: 4rex;
+  }
+
+  input[type="radio"] {
+    transform: scale(2.5);
+    margin-right: 20px;
+  }
+
+  .chart-container {
+    flex-direction: column;
+  }
+
+  .side-by-side-charts {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .wide-chart {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  h3 {
+    margin-top: 40px;
+  }
+
+  .spacer {
+    flex-grow: unset;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .info {
+    font-size: 3rex;
+  }
+}

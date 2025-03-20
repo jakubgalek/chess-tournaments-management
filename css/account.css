@@ -1,0 +1,162 @@
+body {
+    align-items: normal;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation {
+    margin-bottom: 0px;
+}
+
+/* Styl głównego kontenera z nawigacją i treścią */
+.main-container {
+    display: flex;
+    flex-direction: row;
+    min-height: calc(100vh - 60px);
+    align-items: stretch;
+    justify-content: space-between;
+    color: black;
+}
+
+.side-nav {
+    width: 260px;
+    height: calc(100vh - 60px);
+    background-color: #171717;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+/* Styl listy bocznego menu */
+.side-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 95%;
+    z-index: 3;
+}
+
+/* Styl elementów menu */
+.side-menu li {
+    margin: 10px 15px;
+}
+
+/* Styl linków w menu */
+.side-menu a {
+    display: block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #444;
+    transition: background-color 0.3s ease;
+}
+
+/* Styl hover dla linków */
+.side-menu a:hover {
+    border: 1px solid #8f8f8f;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+/* Zawartość strony dostosowana do nawigacji bocznej */
+.content {
+    margin-left: 260px;
+    padding: 20px;
+    width: calc(100% - 260px);
+    min-height: calc(100vh - 60px);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.table-container {
+    width: 84vw;
+}
+
+.form-container {
+    padding: 5vh 20vw;
+    border: none;
+    background-color: unset;
+
+}
+
+.profile_img {
+    width: 150px;
+    max-height: auto;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #171717;
+    border-radius: 5px;
+}
+
+.player-card {
+    background-color: unset;
+    font-size: large;
+    text-align: center;
+    padding: unset;
+    width: unset;
+    margin-bottom: 25px;
+    border: none;
+}
+
+.form-container {
+    padding: unset;
+}
+
+.player-image {
+    width: 25%;
+}
+
+.form-text-input {
+    margin: 7px 0;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.wide-chart {
+    width: 40%;
+    margin-top: 40px;
+}
+
+.side-by-side-charts {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.search-button {
+    margin-top: 18px;
+}
+
+.search-input {
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-bottom: 12px;
+}
